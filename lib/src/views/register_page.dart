@@ -68,7 +68,7 @@ class _RegisterPageState extends State<RegisterPage> {
       Utils.showSnackBar(
         context: context, 
         title: '¡Registro Exitoso! Ya puedes iniciar sesión.',
-        color: Colors.green,
+        color: Colors.green[500],
       );
       
       // 3. Navegar de vuelta al Login
@@ -78,7 +78,7 @@ class _RegisterPageState extends State<RegisterPage> {
       Utils.showSnackBar(
         context: context, 
         title: 'Por favor, corrige los errores en el formulario.',
-        color: Colors.red,
+        color: Colors.red[500],
       );
     }
   }
