@@ -61,7 +61,9 @@ class _RegisterPageState extends State<RegisterPage> {
       // 1. Guardar el nuevo usuario en la lista 'logins'
       logins.add({
         'user': _emailController.text.trim(),
-        'password': _passwordController.text.trim(),
+       'password': _passwordController.text.trim(),
+        'name': _nameController.text.trim(),   
+        'phone': _phoneController.text.trim(), 
       });
       
       // 2. Mostrar mensaje de exito con tu Util

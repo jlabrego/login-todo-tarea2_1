@@ -25,13 +25,18 @@ final List<Map<String, dynamic>> todoList = [
   },
 ];
 
+
 final List<Map<String, dynamic>> logins = [
   {
     'user': 'jlabrego@unah.hn',
     'password': '20222030174#',
+    'name': 'Jessica Labrego',   
+    'phone': '99887766',         
   },
   {
     'user': 'mmontescp@unah.hn',
     'password': '2014789624*',
+    'name': 'Mario Montes',      
+    'phone': '33221100',         
   },
 ];
